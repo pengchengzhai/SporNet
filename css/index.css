@@ -1,0 +1,222 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+body {
+	font-family: "Ubuntu", "Microsoft YaHei", "微软雅黑";
+	background-color: #ebebeb;
+  color: #0b1b35;
+}
+.navbar-default {
+  background-color: rgba(235,235,235,.4);
+  border-bottom: none;
+  color: #0b1b35;
+}
+.navbar-default .navbar-brand,
+.navbar-default .navbar-nav>li>a {
+  color: #0b1b35;
+}
+.navbar-default .navbar-brand:hover, .navbar-default .navbar-brand:focus, .navbar-default .navbar-brand:active,
+.navbar-default .navbar-nav>li>a:hover, .navbar-default .navbar-nav>li>a:focus, .navbar-default .navbar-nav>li>a:active {
+  color: #37aa9d;
+}
+.intro {
+	background-image: url("img/introBG.png");
+	background-repeat:no-repeat;
+	-webkit-background-size: cover;
+     -moz-background-size: cover;
+       -o-background-size: cover;
+  				background-size: cover;
+}
+.intro p {
+    color: #fff;
+}
+.intro p.intro-content {
+	text-align: justify;
+}
+.intro p.intro-en {
+  font-size: 16px;
+}
+.intro h1 {
+	color: #fff;
+}
+
+.panelBox {
+	margin:0 auto;
+	max-width:768px;
+	padding: 100px 0;
+}
+h1 {
+	padding: 10px 0;
+}
+
+.contact-us {
+    font-size: 13px;
+	border-bottom: 1px solid #37aa9d;
+	display: inline-block;
+}
+.contact-us a {
+	color: #fff;
+	text-decoration: none;
+}
+.contact-us a:hover {
+	color: #37aa9d;
+}
+.function p, .target p {
+	color: #0b1b35;
+}
+.demo img {
+	display: inline-block;
+	max-width: 250px;
+}
+.even .right {
+	text-align: right;
+}
+.odd .right {
+	text-align: left;
+}
+.left .icon {
+	text-align: center;
+}
+.icon {
+	display: table;
+	margin: 20px 0;
+}
+.icon-img {
+	display: inline-block;
+    height: 100px;
+    width: 100px;
+}
+.icon h3 {
+	display: table-cell;
+	vertical-align: middle;
+}
+.odd .icon {
+    text-align: left;
+}
+.odd .icon h3 {
+    text-align: right;
+    padding-right: 10px;
+}
+.even .icon {
+    text-align: right;
+}
+.even .icon h3 {
+    text-align: left;
+    padding-left: 10px;
+}
+.function-content {
+	padding: 0;
+	text-align: center;
+}
+.panelBox hr {
+	border: 0;
+	border-top: 1px solid #cfcfcf;
+    display: block;
+    height: 1px;
+    margin: 50px 0;
+}
+.target {
+  background-color: #0b1b35;
+  color: #fff;
+}
+.headBox {
+  border-bottom: 1px solid #37aa9d;
+  text-align: center;
+}
+.schools img {
+  max-height: 500px;
+  height: auto;
+  width: auto;
+}
+.copyright {
+  border-top: 1px solid #cfcfcf;
+  text-align: center;
+  padding: 20px 0;
+}
+.copyright p {
+  font-size: 12px;
+  color: rgba(11,27,53,.5);
+}
+.copyright a {
+  font-size: 14px;
+  color: rgba(11,27,53,.5);
+  text-decoration: none;
+}
+.copyright a:hover, .copyright a:active, .copyright a:focus {
+  color: #37aa9d;
+}
+.panelBox.term p, .panelBoxe.term h1 {
+  color: #0b1b35;
+}
+.panelBox.term a {
+  color: #37aa9d;
+}
+.subscribe-modal {
+  color: #0b1b35;
+}
+.subscribe-modal #mc_embed_signup form {
+  padding: 0;
+}
+#mc_embed_signup #mc_embed_signup_scroll input {
+  padding: 6px 0;
+  border: 1px solid #ccc;
+}
+#mc_embed_signup #mc_embed_signup_scroll .mc-field-group {
+  padding-bottom: 2px;
+}
+.subscribe-modal #mc_embed_signup #mc-embedded-subscribe-form div.mce_inline_error {
+  margin: 2px 0 0 10px;
+}
+#mc_embed_signup #mc_embed_signup_scroll label {
+  padding-right: 0;
+}
+.btn-container,
+.modal-footer,
+#mc_embed_signup #mc_embed_signup_scroll .modal-footer{
+  text-align: center;
+}
+#mc_embed_signup #mc_embed_signup_scroll .confirm {
+  display: inline-block;
+  margin: 0 5px 0 0;
+  vertical-align: top;
+}
+.btn-subscribe,
+.modal-footer .confirm,
+#mc_embed_signup #mc_embed_signup_scroll .confirm {
+  width: 200px;
+  border: 1px solid #37aa9d;
+  color: #fff;
+  background-color: #37aa9d;
+}
+.btn-subscribe:hover, .btn-subscribe:focus, .btn-subscribe:active,
+.modal-footer .confirm:hover, .modal-footer .confirm:focus, .modal-footer .confirm:active,
+#mc_embed_signup #mc_embed_signup_scroll .confirm:hover,
+#mc_embed_signup #mc_embed_signup_scroll .confirm:focus,
+#mc_embed_signup #mc_embed_signup_scroll .confirm:active {
+  background-color: transparent;
+  color: #37aa9d;
+}
+@media (max-width: 768px){
+  .panelBox {
+    padding: 100px 50px;
+  }
+  .demo {
+  	text-align: center;
+  }
+  #mc_embed_signup #mc_embed_signup_scroll .modal-footer {
+    margin-top: 30px;
+  }
+}
+@media (min-width: 768px){
+	.vertical-align {
+  	align-items: center;
+  	display: flex;
+	}
+  #mc_embed_signup #mc_embed_signup_scroll label {
+    text-align: right;
+  }
+  .subscribe-modal #mc_embed_signup #mc-embedded-subscribe-form div.mce_inline_error {
+    margin-left: 26%;
+  }
+}
